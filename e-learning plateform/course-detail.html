@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>/Courses-details</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="index.css">
+
+
+	<link rel="stylesheet" class="js-color-style" href="color-1.css">
+
+</head>
+<body>
+<!-- main rapper -->
+
+<div class="main-rapper">
+		
+		<header class="header">
+	<div class="container">
+		<div class="header-main d-flex justify-content-between align-items-center">
+			<div class="header-logo">
+				<a href="index.html"><span>Lear</span>ning</a>
+			</div>
+			<button type="button" class="header-hamburger-btn js-header-menu-toggler">
+				<span></span>
+			</button>
+			<div class="header-backdrop js-header-backdrop"></div>
+			<nav class="header-menu js-header-menu ">
+				<button type="button" class="header-close-btn js-header-menu-toggler">
+					<i class="ri-close-line"></i>
+				</button>
+				<ul class="menu">
+					<li class="menu-item"><a href="index.html">Home</a></li>
+					<li class="menu-item menu-item-has-children"><a href="#" class="js-toggle-sub-menu"> courses<i class="ri-arrow-down-s-line"></i></a>
+						<ul class="sub-menu js-sub-menu">
+							<li class="sub-menu-item"><a href="courses.html"> courses</a></li>
+							<li class="sub-menu-item"><a href="course-detail.html"> course details</a></li>
+
+						</ul>
+					</li>
+					<li class="menu-item menu-item-has-children"><a href="#" class="js-toggle-sub-menu"> pages <i class="ri-arrow-down-s-line"></i></a>
+						<ul class="sub-menu js-sub-menu">
+							<li class="sub-menu-item"><a href="log-in.html">log in</a> </li>
+							<li class="sub-menu-item"><a href="sign-up.html">sign up</a> </li>
+
+						</ul>
+					</li>
+					<li class="menu-item"><a href="contact.html"> contact</a></li>
+
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+</header>
+
+
+
+
+
+
+
+<div class="breadcrumb-nav">
+    <div class="container">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+           <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+           <li class="breadcrumb-item"><a href="courses.html">Courses</a></li>
+
+           <li class="breadcrumb-item active" aria-current="page">Courses-Details</li>
+        </ol>
+	</nav>
+	</div>
+</div>
+
+
+
+
+<!-- course details -->
+
+<section class="Courses-details section-padding">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-lg-8">
+
+				<div class="course-header box">
+					<h2 class="text-capitalize">JavaScript for beginers</h2>
+					<div class="rating">
+						<span class="average-rating">(3.5)</span>
+						<span class="average-stars">
+								<i class="ri-star-fill"></i>
+								<i class="ri-star-fill"></i>
+								<i class="ri-star-fill"></i>
+								<i class="ri-star-fill"></i>
+								<i class="ri-star-half-line"></i>
+						</span>
+						<span class="reviews">(30k reviews)</span>
+
+
+					</div>
+					<ul>
+						<li>enrolled students - <span>12k</span></li>
+						<li>created by - <span><a href="#">George Henry</a></span></li>
+						<li>last update - <span>05/02/2023</span></li>
+						<li>language - <span>English / Hindi</span></li>
+
+					</ul>
+				</div>
+
+				<!-- course tab -->
+
+				<nav class="course-tabs">
+ 				 <div class="nav nav-tabs border-0" id="nav-tab" role="tablist">
+    				<button class="nav-link active" id="course-curriculam-tab" data-bs-toggle="tab" data-bs-target="#course-curriculam" type="button" role="tab" aria-controls="course-curriculam" aria-selected="true">Curriculam</button>
+ 				   <button class="nav-link" id="course-description-tab" data-bs-toggle="tab" data-bs-target="#course-description" type="button" role="tab" aria-controls="course-description" aria-selected="false">Description</button>
+				    <button class="nav-link" id="course-instructor-tab" data-bs-toggle="tab" data-bs-target="#course-instructor" type="button" role="tab" aria-controls="course-instructor" aria-selected="false">Instructor</button>
+ 				    <button class="nav-link" id="course-reviews-tab" data-bs-toggle="tab" data-bs-target="#course-reviews" type="button" role="tab" aria-controls="course-reviews" aria-selected="false">Reviews</button>
+ 				  
+ 				 </div>
+				</nav>
+
+
+
+				<!-- tab pannel starts -->
+
+				<div class="tab-content" id="nav-tabContent">
+
+					  <div class="tab-pane fade show active " id="course-curriculam" role="tabpanel" aria-labelledby="course-curriculam-tab" tabindex="0">
+
+
+
+					  	<div class="course-curriculam box"> 
+					  		<h3 class="text-capitalize mb-4">course curriculam</h3>
+					  		<div class="accordion" id="accordion">
+
+					  			<div class="accordion-item">
+  								  <h2 class="accordion-header" id="heading-1">
+  								    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
+ 								       
+  								    	Language basics  <span> 4 lesson | 20 min</span>
+
+ 								     </button>
+ 								   </h2>
+ 								   <div id="collapse-1" class="accordion-collapse collapse " data-bs-parent="#accordion">
+ 								     <div class="accordion-body">
+ 								     	<ul>
+ 								     		<li><i class="ri-play-fill"></i>Lexical Structure<span>06:00</span></li>
+ 								     		<li><i class="ri-play-fill"></i>Values<span>06:00</span></li>
+ 								     		<li><i class="ri-play-fill"></i>Types<span>06:00</span></li>
+ 								     		<li><i class="ri-play-fill"></i>Variable<span>06:00</span></li>
+
+ 								     	</ul>
+ 								     </div>
+  								  </div>
+  								</div>
+
+
+
+  								<div class="accordion-item">
+  								  <h2 class="accordion-header" id="heading-2">
+  								    <button class="accordion-button  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+  								    	Types <span> 3 lesson | 20 min</span>
+ 								      
+ 								     </button>
+ 								   </h2>
+ 								   <div id="collapse-2" class="accordion-collapse collapse" data-bs-parent="#accordion">
+ 								     <div class="accordion-body">
+ 								     	<ul>
+ 								     		<li><i class="ri-play-fill"></i>Strings<span>06:00</span></li>
+ 								     		<li><i class="ri-play-fill"></i>Bollean<span>06:00</span></li>
+ 								     		<li><i class="ri-play-fill"></i>null and undefined<span>06:00</span></li>
+
+ 								     	</ul>
+ 								     </div>
+  								  </div>
+  								</div>
+
+
+
+  								<div class="accordion-item">
+  								  <h2 class="accordion-header" id="heading-3">
+  								    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
+  								    	Control Structure <span> 3 lesson | 20 min</span>
+ 								       
+ 								     </button>
+ 								   </h2>
+ 								   <div id="collapse-3" class="accordion-collapse collapse " data-bs-parent="#accordion">
+ 								     <div class="accordion-body">
+ 								     		<ul>
+ 								     		<li><i class="ri-play-fill"></i>If / else<span>06:00</span></li>
+ 								     		<li><i class="ri-play-fill"></i>Switch<span>06:00</span></li>
+ 								     		<li><i class="ri-play-fill"></i>Loops<span>06:00</span></li>
+
+ 								     	</ul>
+ 								     </div>
+  								  </div>
+  								</div>
+
+
+  								<div class="accordion-item">
+  								  <h2 class="accordion-header" id="heading-4">
+  								    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4" aria-expanded="false" aria-controls="collapse-4">
+  								    	Function  <span> 4 lesson | 20 min</span>
+ 								       
+ 								     </button>
+ 								   </h2>
+ 								   <div id="collapse-4" class="accordion-collapse collapse" data-bs-parent="#accordion">
+ 								     <div class="accordion-body">
+ 								     		<ul>
+ 								     		<li><i class="ri-play-fill"></i>Arrow Function<span>06:00</span></li>
+ 								     		<li><i class="ri-play-fill"></i>Parameters<span>06:00</span></li>
+ 								     		<li><i class="ri-play-fill"></i>Return value<span>06:00</span></li>
+ 								     		<li><i class="ri-play-fill"></i>Recursion<span>06:00</span></li>
+
+
+ 								     	</ul>
+ 								     </div>
+  								  </div>
+  								</div>
+
+
+
+						</div>
+
+					  	</div>
+
+
+
+					  </div>
+
+					  <div class="tab-pane fade" id="course-description" role="tabpanel" aria-labelledby="course-description-tab" tabindex="0">
+					 	<div class="course-description box">
+					 		<h3 class="text-capitalize mb-4">Description</h3>
+					 		<p>JavaScript (JS) is a lightweight interpreted (or just-in-time compiled) programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat.</p>
+					 		<h4>For who is this course design ?</h4>
+					 		<p>JavaScript (JS) is a lightweight interpreted (or just-in-time compiled) programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat.</p>
+					 		<h4>Why should you take this course ?</h4>
+					 		<p>JavaScript (JS) is a lightweight interpreted (or just-in-time compiled) programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat.</p>
+					 	</div>
+					  </div>
+
+					  <div class="tab-pane fade" id="course-instructor" role="tabpanel" aria-labelledby="course-instructor-tab" tabindex="0">
+					  <div class="course-instructor box">
+					  	<h3 class="mb-3 text-capitalize">Instructor</h3>
+					  	<div class="Instructor-details">
+					  		<div class="details-wrap d-flex align-items-center flex-wrap">
+					  			<div class="left-box me-4">
+					  				<div class="img-box"> 
+					  					<img src="https://i.ibb.co/sgBLSFG/anas.jpg" class="rounded-circle"  alt="Instructor img">
+					  				</div>
+					  			</div>
+					  			<div class="right-box">
+					  				<h4>George Henry<span>Full stack developer</span></h4>
+					  				<ul>
+										<li><i class="ri-star-fill"></i>4.3 Rating</li>
+					  					<li><i class="ri-play-fill"></i>20 Courses</li>
+					  					<li><i class="ri-folder-5-fill"></i>43k Reviews</li>
+
+					  				</ul>
+					  			</div>
+					  		</div>
+					  		<div class="text">
+					  			<p class="mb-0">The Reproductive Health Matters (RHM) journal is a peer-reviewed, international journal that explores emerging, neglected and marginalised issues across the field of sexual and reproductive health and rights (SRHR). It aims to publish original, relevant, and contemporary research, particularly from a feminist perspective, that can help inform the development of policies, laws and services to fulfil the rights and meet the sexual and reproductive health needs of people of all ages, gender identities and sexual orientations.</p>
+					  		</div>
+					  	</div>
+					  </div>
+					  </div>
+
+					  <div class="tab-pane fade " id="course-reviews" role="tabpanel" aria-labelledby="course-reviews-tab" tabindex="0">
+					  <div class="course-review box">
+					  		
+					  		<div class="rattimg-summary">
+					  			<h3 class="mb-4 text-capitalize">student feedback</h3>
+					  			<div class="row"> 
+					  				<div class="col-md-4 d-flex align-items-center justify-content-center text-center">
+					  					<div class="rating-box ">
+					  						<div class="average-rating">
+					  							4.5
+					  						</div>
+					  						<div class="average-stars">
+					  							<i class="ri-star-fill"></i>
+												<i class="ri-star-fill"></i>
+												<i class="ri-star-fill"></i>
+												<i class="ri-star-fill"></i>
+												<i class="ri-star-half-line"></i>
+					  						</div>
+					  						<div class="review">
+					  							32k Reviews
+					  						</div>
+					  					</div>
+					  				</div>
+					  					<div class="col-md-8">
+					  						<div class="rating-bars">
+					  							<div class="ratting-bars-item">
+					  								<div class="star-text">5 Star</div>
+					  								<div class="progress">
+					  									<div class="progress-bar" style="width: 50%;"></div>
+					  								</div>
+					  								<div class="percent">50%</div>
+
+					  							</div>
+
+					  								<div class="ratting-bars-item">
+					  								<div class="star-text">4 Star</div>
+					  								<div class="progress">
+					  									<div class="progress-bar" style="width: 30%;"></div>
+					  								</div>
+					  								<div class="percent">30%</div>
+
+					  							</div>
+
+					  								<div class="ratting-bars-item">
+					  								<div class="star-text">3 Star</div>
+					  								<div class="progress">
+					  									<div class="progress-bar" style="width: 10%;"></div>
+					  								</div>
+					  								<div class="percent">10%</div>
+
+					  							</div>
+
+					  								<div class="ratting-bars-item">
+					  								<div class="star-text">2 Star</div>
+					  								<div class="progress">
+					  									<div class="progress-bar" style="width: 7%;"></div>
+					  								</div>
+					  								<div class="percent">70%</div>
+
+					  							</div>
+
+					  								<div class="ratting-bars-item">
+					  								<div class="star-text">1 Star</div>
+					  								<div class="progress">
+					  									<div class="progress-bar" style="width: 2%;"></div>
+					  								</div>
+					  								<div class="percent">2%</div>
+
+					  							</div>
+
+
+
+					  						</div>
+					  					</div>
+					  				
+					  			</div>
+					  		</div>
+
+
+					  		<!-- ratting summary end -->
+
+
+					  		<!-- review filter -->
+					  		<div class="review-filter">
+					  			<h3 class="mb-4 text-capitalize">reviews</h3>
+					  			<form>
+					  				<div class="form-group">
+					  					<i class="ri-arrow-down-s-line select-icon"></i>
+					  				<select class="form-control">
+					  					<option value="">All reviews</option>
+					  					<option value="1"> 1 Stars</option>
+					  					<option value="2">2 Stars</option>
+					  					<option value="3">3 Stars</option>
+					  					<option value="4">4 Stars</option>
+
+					  				</select> 
+					  				</div>
+					  			</form>
+					  		</div>
+
+					  		<!-- review list start -->
+
+					  		<div class="review-list">
+
+					  			<div class="review-item">
+					  				<div class="img-box">
+					  					<img src="https://image.shutterstock.com/image-photo/young-handsome-man-beard-wearing-260nw-1768126784.jpg" class="rounded-circle"  style="max-width: 4em;">
+					  				</div>
+					  				<div class="show">
+					  				<h4>Praveen Chauhan</h4>
+					  				<div class="stars-rating">
+					  						<i class="ri-star-fill"></i>
+										<i class="ri-star-fill"></i>
+										<i class="ri-star-fill"></i>
+										<i class="ri-star-fill"></i>
+										<i class="ri-star-half-line"></i>
+										<span class="date">3 hours ago</span>
+					  				</div>
+					  				<p>Great work I lern lots of things about JavaScript</p>
+					  			</div>
+					  			</div>
+
+
+
+					  			<div class="review-item">
+					  				<div class="img-box">
+					  					<img src="https://img.freepik.com/free-photo/stylish-handsome-indian-man-tshirt-pastel-wall_496169-1571.jpg" class="rounded-circle" style="max-width: 4em;">
+					  				</div>
+					  				<div class="show">
+					  				<h4>Rakesh D.</h4>
+					  				<div class="stars-rating">
+					  						<i class="ri-star-fill"></i>
+										<i class="ri-star-fill"></i>
+										<i class="ri-star-fill"></i>
+										<i class="ri-star-fill"></i>
+										<i class="ri-star-half-line"></i>
+										<span class="date">3 hours ago</span>
+					  				</div>
+					  				<p>Great work I lern lots of things about JavaScript</p>
+					  			</div>
+					  			</div>
+					  			
+
+
+					  			<div class="review-item">
+					  				<div class="img-box">
+					  					<img src="https://img.freepik.com/free-photo/indian-business-man-with-crossed-hands-posing-isolated-white-wall_231208-2626.jpg" class="rounded-circle"  style="max-width: 4em;">
+					  				</div>
+					  				<div class="show">
+					  				<h4>Samar S.</h4>
+					  				<div class="stars-rating">
+					  						<i class="ri-star-fill"></i>
+										<i class="ri-star-fill"></i>
+										<i class="ri-star-fill"></i>
+										<i class="ri-star-fill"></i>
+										<i class="ri-star-half-line"></i>
+										<span class="date">3 hours ago</span>
+					  				</div>
+					  				<p>Great work I lern lots of things about JavaScript</p>
+					  			</div>
+					  			</div>
+					  			
+
+					  		</div>
+
+
+					  		<button type="button" class="btn btn-theme">more reviews</button>
+
+					  </div>
+					  </div>
+					  
+				</div>
+
+
+
+
+			</div>
+			<div class="col-lg-4">
+				<div class="course-slidebar box">
+					<div class="img-box " data-bs-toggle="modal" data-bs-target="#video-modal">
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhhFc_jBY91mYxZGvzZJG-4I5D1SB6JIyvkA&usqp=CAU" class="w-100" alt="course-img">
+						<div class="play-icon">
+							<i class="ri-play-fill"></i>
+						</div>
+						<p class="text-center">Course Preview</p>
+
+					</div>
+					<div class="price d-flex align-items-center mb-3">
+						<span class="price-old"><s>₹ 3000</s></span>
+						<span class="price-new">₹ 1999</span>
+						<span class="price-discount">50% off</span>
+
+					</div>
+
+					<h3 class="mb-3">Course feature</h3>
+					<ul class="features-list">
+						<li>Total 15 lessons</li>
+						<li>Other Features</li>
+						<li>Other Features</li>
+						<li>Other Features</li>
+
+					</ul>
+					<div class="btn-wrap"  data-bs-toggle="modal" data-bs-target="#enrol-success">
+						<button type="button" id="btn" class="btn btn-theme btn-block btn-show">Enroll now</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- generate Certificate -->
+
+
+<section class="m-10" style="margin-left: 65%; margin-top: -7em;" >
+	<div class="col-lg-9">
+		<div  class="course-slidebar box">
+		<h3 class="text-center">Generate Cetificate</h3>
+
+		<div >
+				<div>
+				
+					<div class="price d-flex align-items-center mb-3">
+						<span class="price-old"><s>₹ 3000</s></span>
+						<span class="price-new">₹ 1999</span>
+						<span class="price-discount">50% off</span>
+
+					</div>
+
+					<span class="mb-3 text-capitalize align-items-center text-center" style="margin: 1em;  ">You can generate the certificate after the course completion.</span>
+					
+					<div class="btn-wrap" style=" margin-top: 1em;" data-bs-toggle="modal" data-bs-target="#generate-success">
+						<button type="button" id="btn" class="btn btn-theme btn-block btn-show">Generate Certificate</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+<!-- footer -->
+
+
+
+
+<footer class="footer">
+	<div class="footer-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-lg-3">
+					<div class="footer-item">
+						<h3 class="footer-logo"><span>Lear</span>ning</h3>
+						<ul>
+							<li><a href="#">about</a> </li>
+							<li><a href="#">what we offer</a> </li>
+							<li><a href="#">careers</a> </li>
+							<li><a href="#">certificates</a> </li>
+							<li><a href="#">blogs</a> </li>
+
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-3">
+					<div class="footer-item">
+						<h3>learning</h3>
+						<ul>
+							<li><a href="#">get the app</a> </li>
+							<li><a href="#">testimonial</a> </li>
+							<li><a href="#">pricing</a> </li>
+							<li><a href="#">FAQ</a> </li>
+
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-3">
+					<div class="footer-item">
+						<h3>more</h3>
+						<ul>
+							<li><a href="#">affiliates</a> </li>
+							<li><a href="#">become a course creater</a> </li>
+							<li><a href="#">training</a> </li>
+							<li><a href="#">free personality tests</a> </li>
+							<li><a href="#">help & support</a> </li>
+
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-3">
+					<div class="footer-item">
+						<h3>get in touch</h3>
+						<ul>
+							<li><a href="#"><i class="ri-facebook-fill social-icon"></i>Facebook</a> </li>
+							<li><a href="#"><i class="ri-instagram-line social-icon"></i>Instagram</a> </li>
+							<li><a href="#"><i class="ri-twitter-fill social-icon"></i>Twitter</a> </li>
+							<li><a href="#"><i class="ri-linkedin-fill social-icon"></i>LinkedIn</a> </li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-bottom">
+		<div class="container">
+			<p class="m-0 py-5 text-center">copyright@2023 | Learning</p>
+		</div>
+	</div>
+</footer>
+
+
+
+</div>
+
+
+
+
+
+
+
+<!-- certificate generate -->
+
+<div class="modal fade video-modal js-course-preview-modal" id="generate-success" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      
+      <div class="modal-body">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+
+
+
+
+    	<div class="img-box align-items-center justify-content-center text-center">
+    		<img src="https://i.ibb.co/hVTz62J/certificate.jpg" style="max-width:20em" >
+    		<button type="download"  style="font-size: 0.8em; border: 0; padding: 0.5em 1em; outline: 0; background-color: green; color: white; right: 0; margin-left: 10%">Download Certificate</button>
+    		<h2 style="font-size: 1em; font-weight: bold; margin-top:2em">Congratulations !!</h2>
+    		<div style="margin-top: 1em; padding: 1em; justify-content: space-between; ">
+
+    		<input  type="text" name="name" id="certificate-name" placeholder="Enter your Name" style="width :60%; border: 0; margin:0; outline:none; margin-bottom: 1px solid black;" >
+    		
+
+    		<button type="button" id="btn-10" class="btn btn-theme btn-1"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+ 				Generate Certificate
+			</button>
+
+			<span class="name text-center align-items-center" id="name-here" style="position: absolute; top: 34%;  font-family: 'Caveat', cursive; left: 20%;  width: 30%; font-size:0.7em; color:black; font-weight: 500;"> </span>
+    	</div>
+
+    	</div>
+   
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<!-- course preview start -->
+<div class="modal fade video-modal js-course-preview-modal" id="video-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      
+      <div class="modal-body">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+    
+
+        <div class="ratio ratio-16x9">
+
+ 			 <iframe src="https://www.youtube.com/embed/hKB-YGF14SY" title="YouTube video" allowfullscreen></iframe>
+ 		
+		</div>
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<!-- secound enrollment success -->
+
+
+
+<div class="modal fade video-modal js-course-preview-modal" id="enrol-success" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      
+      <div class="modal-body">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+    	<div class="img-box align-items-center justify-content-center text-center">
+    		<img src="https://img.freepik.com/premium-vector/green-check-mark-icon-symbol-logo-circle-tick-symbol-green-color-vector-illustration_685751-503.jpg?w=2000" style="max-width:20em" >
+    		<h2>Congratulations !!</h2>
+    		<span>you are enroll this course successfully !!</span>
+    	</div>
+   
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="style-switcher js-style-switcher">
+	<div class="style-switcher-toggler js-style-switcher-toggler">
+		<i class="ri-settings-5-fill"></i>
+	</div>
+	<h3>Style Switcher</h3>
+	<div class="style-switcher-item">
+		<p class="mb-2">Theme Colors</p>
+		<div class="theme-colors js-theme-colors">
+			<button type="button" data-js-theme-color="color-1" class="js-theme-color-item color-1"></button>
+			<button type="button" data-js-theme-color="color-2" class="js-theme-color-item color-2"></button>
+			<button type="button" data-js-theme-color="color-3" class="js-theme-color-item color-3"></button>
+			<button type="button" data-js-theme-color="color-4" class="js-theme-color-item color-4"></button>
+			<button type="button" data-js-theme-color="color-5" class="js-theme-color-item color-5"></button>
+
+		</div>
+	</div>
+	<div class="style-switcher-item">
+		<div class="form-check form-switch">
+			  <input class="form-check-input js-dark-mode" type="checkbox" role="switch" id="dark-mode">
+			  <label class="form-check-label" for="dark-mode">Dark Mode</label>
+		</div>
+	</div>
+	<div class="style-switcher-item">
+		<div class="form-check form-switch">
+			  <input class="form-check-input js-glass-effect" type="checkbox" role="switch" id="glass-effect">
+			  <label class="form-check-label" for="glass-effect">Glass Effect</label>
+		</div>
+	</div>
+	<div class="style-switcher-item"></div>
+
+
+</div>
+
+
+
+
+
+<script src="index.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</body>
+</html>
